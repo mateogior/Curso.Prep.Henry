@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { stringify } = require("git-url-parse");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'hola' ;
 
@@ -28,7 +30,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  return str;
 }
 
 function suma(x, y) {
