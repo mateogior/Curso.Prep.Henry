@@ -97,7 +97,7 @@ function mayorQueCincuenta(num) {
   if (num > 50) {return true;
   } else {return false;
 }
-
+}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
@@ -264,5 +264,3 @@ module.exports = {
   deEuroAdolar,
   esVocal,
 };
-
-}
