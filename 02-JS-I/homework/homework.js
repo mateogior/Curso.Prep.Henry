@@ -130,7 +130,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  Math.pow(num, 2);
+ return Math.pow(num, 2);
 
 }
 
@@ -174,11 +174,12 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero === 0) {
+  if(numero === 0) {
     return false;
-  } else if (numero > 0) {
-    return "es positivo";
-  } else {return "es negativo";
+  } else if(numero > 0) {
+    return "Es positivo";
+  } else {
+    return "Es negativo";
 }
   
 }
@@ -204,7 +205,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return Hola + nombre + '!';
+  return 'Hola' + nombre + '!';
 
 }
 
@@ -245,11 +246,11 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.lenght > 1) {
-    return "dato incorrecto"
-  } else if (letra === 'a', letra === 'e', letra === 'i', letra === 'o', letra === 'u'){
+    return "Dato incorrecto"
+  } if (letra === 'a', letra === 'e', letra === 'i', letra === 'o', letra === 'u'){
     return "Es vocal";
-  } else {return "dato incorrecto";
-}
+  }  return "Dato incorrecto";
+
   
 }
 
