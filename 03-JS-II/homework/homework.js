@@ -60,6 +60,17 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  switch (color) {
+    case "blue" : console.log ("This is blue");
+    break;
+    case "red" : console.log ("This is red");
+    break;
+    case "green": console.log ("This is green");
+    break;
+    case "orange": console.log ("This is orange");
+    break;
+    default : console.log ("Color not found") 
+  }
 }
 
 function esDiezOCinco(numero) {
