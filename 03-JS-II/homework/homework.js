@@ -176,6 +176,7 @@ function tablaDelSeis(){
   for (let i = 0; i < 11; i++) {
     arrayTabladel6.push (6*i)
   }
+  return arrayTabladel6 
 }
 
 function tieneTresDigitos(numero){
