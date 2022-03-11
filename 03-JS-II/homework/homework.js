@@ -155,6 +155,7 @@ function esPrimo(numero) {
       return false
     }
   }
+  return true 
 }
 
 function esVerdadero(valor){
