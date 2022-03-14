@@ -117,7 +117,7 @@ function fizzBuzz(numero) {
     return "fizz"
   } if ( numero % 5 === 0){
     return "buzz"
-  } if ( numero % 3 === 0 && numero % 5 === 0) {
+  } if ( numero % 15 === 0) {
     return 'fizzbuzz'
   } else {return numero
   }
