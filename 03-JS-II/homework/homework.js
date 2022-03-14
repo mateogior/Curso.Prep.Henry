@@ -155,9 +155,12 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
  if (numero === 0 && numero ===1){
    return false
- } else if ( numero % numero === 0 && numero % 1 === 0 )
- return true 
+ } else if ( numero % numero === 0 && numero % 1 === 0 ) {
+ return true }
+ else {
+    return false
 }
+} 
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
