@@ -135,11 +135,7 @@ for (var i=0; i<arreglo.length; i++){
   if (arreglo[i]>18){
     elementosmayores.push(arreglo[i])
   } 
-  {
-    return elementosmayores;
-  
-  }
-  } 
+  } return elementosmayores
 }
   
  
