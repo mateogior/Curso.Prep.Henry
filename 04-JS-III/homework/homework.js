@@ -28,8 +28,10 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
  
-  for (var i = 0; i < array.length; i++ ) {
-    return array[i] 
+  for (var i = 0; i < array.length; i++ );
+  array.push(i);
+   {
+    return array 
   }
 }
 
