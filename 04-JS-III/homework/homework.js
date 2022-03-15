@@ -115,15 +115,14 @@ function multiplicarArgumentos() {
   // Escribe tu código aquí:
   var multiplicacion=1
   if (arguments.length===0){
-    return 0
+    return 0;
   } else if (arguments.length===1){
-    return arguments[0]
-  } else { for (var i= 0; i < arguments.length; i++){
-    multiplicacion= multiplicacion * arguments[i] 
+    return arguments[0];
+  } else { 
+    for (var i= 0; i < arguments.length; i++){
+    multiplicacion= multiplicacion * arguments[i]} 
       return multiplicacion 
     
-
-  }
 }}
 
 
