@@ -202,8 +202,9 @@ function doWhile(numero) {
  do {
    i = i+1;
    a = a+5;
- } while { i<8}
-} return a 
+ } while ( i < 8);
+ return a
+} 
 
 
 // No modificar nada debajo de esta línea
