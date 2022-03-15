@@ -193,7 +193,7 @@ var nuevoarray=[];
     if( array[i] === 'Enero' || array[i] === 'Marzo' || array[i]=== 'Noviembre'){
       nuevoarray.push(array[i])
     }
-    } if (nuevoarray<3) {
+    } if (nuevoarray.length <3) {
       return 'No se encontraron los meses pedidos'}
       else {return nuevoarray;
       }
