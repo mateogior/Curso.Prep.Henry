@@ -103,7 +103,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario[password]= 'nuevagPassword';
+  usuario[password]= nuevaPassword;
   return usuario 
 }
 
@@ -112,6 +112,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
+  usuario.amigos.push(nuevoAmigo);
+  return usuario
 }
 
 function pasarUsuarioAPremium(usuarios) {
