@@ -22,6 +22,8 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
+  property=null;
+  return property
 }
 
 function invocarMetodo(objeto, metodo) {
