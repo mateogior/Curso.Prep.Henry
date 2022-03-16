@@ -9,7 +9,7 @@ function crearGato(nombre, edad) {
   var gato={
     nombre: nombre,
     edad: edad,
-    saludar: function(){return 'Meow!'}
+    meow: function(){return 'Meow!'}
     
 
 
