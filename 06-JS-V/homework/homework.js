@@ -38,6 +38,13 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
+  String.prototype.reverse=funcion()
+  {
+    var stringInvertida='';
+    for(var i=this.length -1; i>= 0 ; i-- ){
+      stringInvertida = stringInvertida + this[i];
+    } return stringInvertida 
+  }
 }
 
 // ---------------------------------------------------------------------------//
@@ -52,10 +59,15 @@ function agregarStringInvertida() {
     //  }
 
   class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
-      // Crea el constructor:
-
-    }
+    constructor(nombre,apellido,edad,domicilio) {
+      this.nombre=nombre;
+      this.apellido=apellido;
+      this.edad=edad;
+      this.domicilio=domicilio;
+      this.detalle= function(){
+        return constructor 
+      }
+    }  
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
