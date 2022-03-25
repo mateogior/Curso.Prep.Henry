@@ -98,9 +98,9 @@ function sortArray(arr) {
     if (arr[i].length > 0){
       nuevoarr= nuevoarr+arr[i]} else {
         continue
-      } return nuevoarr 
+      } 
 
-  } 
+  } return nuevoarr
 }
 
 
