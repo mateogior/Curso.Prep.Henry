@@ -96,7 +96,7 @@ function sortArray(arr) {
   var nuevoarr=[];
   for (var i = 0; i<arr.length; i++){
     if (arr[i].length > 0){
-      nuevoarr= nuevoarr + ', ' + arr[i]} else {
+      nuevoarr= nuevoarr + arr[i] + ', '} else {
         continue
       } 
 
