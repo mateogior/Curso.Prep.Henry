@@ -81,7 +81,7 @@ function deleteAbc(cadena){
       continue; 
       
     } else {
-      nuevacadena= nuevacadena + i 
+      nuevacadena= nuevacadena + cadena[i] 
     }
     return nuevacadena 
     
