@@ -64,10 +64,10 @@ function capicua(numero){
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
   var numToString = numero.ToString();
-  if (numToString.split('')= numToString.split('').reverse()) {
-    return 'Es capicua';
-  } else { return 'No es capicua'
-}
+  var resultado = numToString.split('').reverse().join('');
+  if( numToString===resultado){
+    return 'Es capicua'
+  }else { return 'No es capicua'}
 }
 
 
