@@ -95,7 +95,7 @@ function sortArray(arr) {
   //Escribe tu código aquí
   var nuevoarr=[];
   for (var i = 0; i<arr.length ; i++){
-    if (arr[i].length > arr[i].length -1){
+    if (arr[i].length > arr[i+1].length){
       nuevoarr= nuevoarr + arr[i] } else {
         continue
       } 
