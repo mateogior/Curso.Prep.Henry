@@ -78,7 +78,7 @@ function deleteAbc(cadena){
  
   for(var i=0; i<cadena.length; i++ ){
     if(cadena[i]==='a' || cadena[i]==='b'|| cadena[i]==='c'){
-      cadena.delete(i)
+      delete(i)
     } else {
       return cadena 
     }
