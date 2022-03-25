@@ -78,10 +78,10 @@ function deleteAbc(cadena){
  var nuevacadena=''
   for(var i=0; i<cadena.length; i++ ){
     if(cadena[i]==='a' || cadena[i]==='b'|| cadena[i]==='c'){
-      continue 
+      continue; 
       
     } else {
-      nuevacadena.push(i) 
+      nuevacadena= nuevacadena + i 
     }
     return nuevacadena 
     
