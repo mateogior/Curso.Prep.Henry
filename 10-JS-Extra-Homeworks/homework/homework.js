@@ -81,11 +81,11 @@ function deleteAbc(cadena){
       continue; 
       
     } else {
-      nuevacadena= nuevacadena + cadena[i] 
+      nuevacadena= nuevacadena + cadena[i]; 
     }
-    return nuevacadena 
+   
     
-  }
+  } return nuevacadena
 }
 
 
