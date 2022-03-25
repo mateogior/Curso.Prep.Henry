@@ -22,7 +22,7 @@ function numberOfCharacters(string) {
   var objeto={};
   for (var i=0;i < string.length; i++){
     if (objeto.hasOwnProperty(string[i])){
-      objeto[string[i]]= objetro[string[i]] + 1;
+      objeto[string[i]]= objeto[string[i]] + 1;
     } else {objeto [string[i]]=1}
   } return objeto 
 }
@@ -38,7 +38,8 @@ function capToFront(s) {
   for(var i=0; i>s.length; i++){
     if(s[i]===s[i].toLowerCase()){
       minusculas= minusculas + s[i]
-    } else {mayusculas= mayusculas + s[i]}
+    } else {mayusculas= mayusculas + s[i]
+    }
   }return mayusculas + minusculas 
 }
 
