@@ -100,7 +100,7 @@ function sortArray(arr) {
         continue
       } 
 
-  } return nuevoarr.split()
+  } return nuevoarr.split('')
 }
 
 
