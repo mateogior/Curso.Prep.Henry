@@ -114,6 +114,12 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+  nuevoarray=[];
+  for(var i= 0; i<arreglo1.length; i ++){
+    if (arreglo1[i]===arreglo2[i]){
+      nuevoarray+= arreglo1[i]
+    }
+  } return nuevoarray
 }
 
 
