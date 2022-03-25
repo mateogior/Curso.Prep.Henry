@@ -115,11 +115,15 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
   nuevoarray=[];
+  nuevoarrayvacio=[];
   for(var i= 0; i<arreglo1.length; i ++){
     if (arreglo1[i]===arreglo2[i]){
-      nuevoarray+= arreglo1[i]
+      nuevoarray += arreglo1[i]
+    } else {
+      return nuevoarrayvacio;
     }
-  } return nuevoarray
+  
+  } 
 }
 
 
