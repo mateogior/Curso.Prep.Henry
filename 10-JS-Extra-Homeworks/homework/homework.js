@@ -65,7 +65,7 @@ function capicua(numero){
   //Escribe tu código aquí
   var numString = numero.toString();
   var resultado = numString.split('').reverse().join('');
-  if( numToString===resultado){
+  if( numString===resultado){
     return 'Es capicua'
   }else { return 'No es capicua'}
 }
