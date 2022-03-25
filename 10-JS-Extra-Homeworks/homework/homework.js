@@ -94,7 +94,7 @@ function sortArray(arr) {
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
   var nuevoarr=[];
-  for (var i = 0; i<arr.length; i++){
+  for (var i = 0; i<arr.length -1; i++){
     if (arr[i].length > 0){
       nuevoarr= nuevoarr + arr[i] } else {
         continue
