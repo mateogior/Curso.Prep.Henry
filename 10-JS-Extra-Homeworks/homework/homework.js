@@ -35,7 +35,7 @@ function capToFront(s) {
   //Escribe tu código aquí
   var mayusculas=''
   var minusculas=''
-  for(i=0; i>s.length; i++){
+  for(var i=0; i>s.length; i++){
     if(s[i]===s[i].toLowerCase()){
       minusculas=s[i]
     } else (mayusculas=s[i])
