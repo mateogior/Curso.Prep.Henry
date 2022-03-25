@@ -51,7 +51,7 @@ function asAmirror(str) {
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
   var strToArray= str.split(' ')
-  var arrayfinal= srToArray.map(function(ele){
+  var arrayfinal= strToArray.map(function(ele){
     return ele.split('').reverse().join('');
   })
    return arrayfinal.join(' ');
@@ -63,8 +63,8 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
-  var numToString = numero.ToString();
-  var resultado = numToString.split('').reverse().join('');
+  var numString = numero.ToString();
+  var resultado = numString.split('').reverse().join('');
   if( numToString===resultado){
     return 'Es capicua'
   }else { return 'No es capicua'}
